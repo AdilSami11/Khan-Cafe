@@ -86,20 +86,22 @@ html {
   gap: 10px;
   cursor: pointer;
 }
-
+.dark .btn-wrapper button > h4 {
+  color: #ffffff;
+}
 .hero-main-wrapper {
   width: 100%;
   min-height: 90vh;
   padding: 60px 0;
 }
 .dark {
-  background-color: #000;
-  color: #fff;
+  background-color: #0f172a;
+  color: #ffffff;
   transition: all 0.3s ease;
 }
 .light .theme-toggle {
   background-color: #000;
-  color: #fff;
+  color: #ffffff;
 }
 .light {
   background-color: #f2f1f1;
@@ -144,6 +146,7 @@ html {
   color: #fff;
   font-weight: 600;
 }
+
 .hero-right-wrapper {
   flex: 1;
   display: flex;
@@ -188,6 +191,10 @@ html {
   display: flex;
   flex-direction: column;
   box-shadow: rgba(104, 108, 112, 0.34) 0px 8px 24px;
+}
+.dark .product-card {
+  background-color: #1e293b;
+  box-shadow: none;
 }
 .card-img-wrap {
   height: 300px;
@@ -264,6 +271,11 @@ html {
   flex-direction: column;
   gap: 5px;
   border-radius: 10px;
+}
+.dark .product-page-card {
+  background-color: #1e293b;
+  box-shadow: none;
+  border: none;
 }
 .product-card-img-wrap {
   width: 100%;
@@ -353,7 +365,8 @@ html {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .dark .cart-card {
-  box-shadow: rgba(0, 0, 0, 0.651) 0px 2px 8px 0px;
+  background-color: #1e293b;
+  box-shadow: none;
 }
 .cart-card-img-wrap {
   max-width: 200px;
