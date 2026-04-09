@@ -4,6 +4,7 @@ import { GiFullPizza, GiHamburgerMenu } from "react-icons/gi";
 import { useContext, useState } from "react";
 import CartContext from "../Context/CartContext";
 import { ThemeContext } from "../Context/ThemeContext";
+import { CgSun, CgMoon } from "react-icons/cg";
 
 const Navbar = () => {
   const { cartItems } = useContext(CartContext);
@@ -61,7 +62,7 @@ const Navbar = () => {
           className="theme-toggle"
           onClick={() => setTheme(theme === "light" ? "dark" : "light")}
         >
-          {theme === "light" ? "🌑" : "🌙"}
+          {theme === "light" ? <CgMoon size={18} /> : <CgSun size={18} />}
         </button>
       </div>
       <GiHamburgerMenu

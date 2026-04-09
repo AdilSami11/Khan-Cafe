@@ -100,8 +100,8 @@ html {
   transition: all 0.3s ease;
 }
 .light .theme-toggle {
-  background-color: #000;
   color: #ffffff;
+  background-color: #0f172a;
 }
 .light {
   background-color: #f2f1f1;
@@ -110,9 +110,13 @@ html {
 }
 
 .theme-toggle {
-  padding: 4px 10px;
+  padding: 6px 10px;
   border-radius: 10px;
   border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .hero-wrapper {
@@ -338,6 +342,8 @@ html {
 }
 
 /* *********** cart-main-page-wrapper ************** */
+
+
 .cart-main-page-wrapper {
   padding: 80px 0;
   /* background-color: rgb(63, 24, 24); */
@@ -505,18 +511,16 @@ html {
     display: flex;
   }
   .btn-wrapper button {
-    padding: 2px 15px;
+    padding: 2px 10px;
     border-radius: 10px;
     background-color: rgba(255, 166, 0, 0.9);
   }
   .theme-toggle {
-    padding: 5px 30px;
-    border-radius: 10px;
-    border: none;
+    padding: 6px 20px;
   }
 
   .dark .links-wrapper {
-    background-color: #000;
+    background-color: #0f172a;
   }
   .light .links-wrapper {
     background-color: #f2f1f1;
@@ -731,5 +735,12 @@ html {
   }
   .add-btn button {
     padding: 4px 8px;
+  }
+
+  .cart-card {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 10px;
   }
 }
