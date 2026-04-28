@@ -21,10 +21,7 @@ const HeroSec = () => {
           </div>
           <div className="hero-right-wrapper">
             <div className="img-wrap">
-              <img
-                src="/delicious-pepperoni-pizza-culinary-delight_632498-24206.avif"
-                alt="pizza"
-              />
+              <img src="/hero-img-2.png" alt="Hero_img" />
             </div>
           </div>
         </div>

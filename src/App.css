@@ -12,14 +12,6 @@ body {
   width: 100%;
   background-color: #f2f1f1;
 }
-/* .dark body,
-html {
-  background-color: #000;
-}
-.light body,
-html {
-  background-color: #f2f1f1;
-} */
 
 .container {
   max-width: 1200px;
@@ -132,18 +124,19 @@ html {
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
+  /* background-color: yellow; */
 }
 .hero-left-wrapper h4 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-style: italic;
   font-weight: 400;
 }
 .hero-left-wrapper h1 {
-  font-size: 3rem;
-  font-weight: 600;
+  font-size: 5rem;
+  font-weight: 500;
 }
 .btn button {
-  padding: 8px 30px;
+  padding: 10px 30px;
   border-radius: 10px;
   border: none;
   background-color: orange;
@@ -343,7 +336,6 @@ html {
 
 /* *********** cart-main-page-wrapper ************** */
 
-
 .cart-main-page-wrapper {
   padding: 80px 0;
   /* background-color: rgb(63, 24, 24); */
@@ -527,6 +519,7 @@ html {
   }
   .navbar-wrapper .hamburger {
     display: block;
+    cursor: pointer;
   }
 
   .hero-main-wrapper {
@@ -551,8 +544,9 @@ html {
   }
 
   .hero-right-wrapper .img-wrap {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
+    /* background-color: yellow; */
   }
   .product-card {
     max-width: 500px;
@@ -659,7 +653,7 @@ html {
     font-size: 1.3rem;
   }
   .hero-wrapper {
-    gap: 4rem;
+    gap: 3rem;
   }
   .hero-left-wrapper {
     padding: 0px 10px;
